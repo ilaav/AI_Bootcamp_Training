@@ -1,2 +1,2 @@
-# AI_Bootcamp_Training
+# aiBootcampTraining
 This is the Github account for AI Bootcamp Training
