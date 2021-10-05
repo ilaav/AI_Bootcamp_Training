@@ -1,0 +1,36 @@
+Git terms:
+Local repository -  Files in laptop
+Remote repository - Github repository
+
+Git Commands:
+
+git init : Initialises git tool on system and for all commands to be present
+
+git clone *link* : Copies files from the local repository to remote repository ONLY PERSONAL REP.
+
+git fork *link* : Copies files from the local repository to remote repository of another rep. NOT personal
+
+git add . : Adds all files to Git, NOT REPOSITORY
+git add file_name : Adds that particular file
+
+git status : What is status of the files - new and old, committed or  not
+
+git commit : Commits all changes after adding files
+
+git push -u origin --all : Pushes all files into remote repository from local one. 
+			  -u - update
+			  origin - remote repository. Link address is mapped to origin
+			  --all - all updates to be updated
+
+git remote : Origin is mapped to particular address
+
+git pull *link* : Pull files from remote rep. to local rep.
+
+git tag name : Gives tag and version to the work. 
+Ex: git tag v1.0 - lightweight
+    git tag -a v1.1 - heavy weight
+
+git show v1.0 : Shows details about tag(version)
+
+git tag : Shows all tags
+
